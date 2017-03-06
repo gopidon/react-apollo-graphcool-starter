@@ -1,4 +1,5 @@
 /node_modules
+/babel_cache
 npm-debug.log
 .DS_Store
 /*.env
