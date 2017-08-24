@@ -96,7 +96,7 @@ const PostsQuery = gql`
 const IndexPageWithData = graphql(PostsQuery, {
     options: (ownProps) => {
         return {
-            forceFetch: true
+            fetchPolicy: "network-only"
         }
     }
 })(IndexPage)
