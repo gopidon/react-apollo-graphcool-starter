@@ -6,7 +6,8 @@ Starter package that combines React, Apollo, GraphCool
 3. From the clone directory, issue the command : sudo npm install 
 4. Next, issue the command: npm start -s
 5. Browser window should open the sample app.
-6. Go ahead and change your Graph Cool end point in the file src/utils/env.js for the key dev
+6. Create GraphQL API and copy API url: [![graphql-up](http://static.graph.cool/images/graphql-up.svg)](https://www.graph.cool/graphql-up/new/?source=https://raw.githubusercontent.com/gopidon/react-apollo-graphcool-starter/master/posts.schema)
+7. Go ahead and change your Graph Cool end point in the file src/utils/env.js for the key dev
     
     dev:
     {
